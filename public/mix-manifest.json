@@ -1,0 +1,11 @@
+{
+    "/js/app.js": "/js/app.js?id=024dc57e9914d5cc0bc6",
+    "/js/vendor.js": "/js/vendor.js?id=58911cbc8f5dfa348ae3",
+    "/css/vendor.css": "/css/vendor.css?id=e6bb8450bdf7049d784e",
+    "/css/app.css": "/css/app.css?id=dce4903c9c74b160336e",
+    
+    "/js/app-extern.js": "/js/app-extern.js?id=958fb49be299e95bac61",
+    "/js/vendor-extern.js": "/js/vendor-extern.js?id=b12988b96ff1da723e3c",
+    "/css/vendor-extern.css": "/css/vendor-extern.css?id=20542162af816fdb88ec",
+    "/css/app-extern.css": "/css/app-extern.css?id=56115d309634c6e44e78"
+}

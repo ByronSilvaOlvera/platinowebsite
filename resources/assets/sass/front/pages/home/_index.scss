@@ -1,0 +1,167 @@
+@import "../../../api";
+.page-home {
+    .section {
+        position: relative;
+        background: white;
+        .section-title {
+            font-size: pr(32);
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        &.section-activities {
+            z-index: 4;
+            padding-top: pr(32);
+            padding-bottom: 0;
+            .square {
+                background: $primary;
+                height: pr(120);
+            }
+            .section-title {
+                margin-bottom: pr(24);
+            }
+            .video-box {
+                width: auto;
+                overflow: hidden;
+                position: relative;
+                .button {
+                    padding: 0;
+                    position: absolute;
+                    height: 100%;
+                    padding: 0 pr(12);
+                    background: rgba($color: #000000, $alpha: .15);
+                    top: 0;
+                    bottom: 0;
+                    z-index: 2;
+                    font-size: pr(48);
+                    color: white;
+                    display: flex;
+                    cursor: pointer;
+                    @include animar(.2s);
+                    flex-wrap: wrap;
+                    -webkit-align-content: center;
+                    align-content: center;
+                    i {
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                    &:hover {
+                        background: rgba($color: #000000, $alpha: .5);
+                    }
+                }
+                .btn-prev {
+                    left: 0;
+                }
+                .btn-next {
+                    right: 0;
+                }
+            }
+            .slicky-video {
+                .button {
+                    padding: 0;
+                    position: absolute;
+                    height: calc( 100% - 4px );
+                    padding: 0 pr(8);
+                    background: rgba($color: #000000, $alpha: .15);
+                    top: 0;
+                    bottom: 0;
+                    z-index: 2;
+                    font-size: pr(32);
+                    color: white;
+                    display: flex;
+                    cursor: pointer;
+                    @include animar(.2s);
+                    border: 0 none transparent;
+                    flex-wrap: wrap;
+                    -webkit-align-content: center;
+                    align-content: center;
+                    i {
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                    &:hover {
+                        background: rgba($color: #000000, $alpha: .5);
+                    }
+                }
+                .btn-prev {
+                    left: 0;
+                }
+                .btn-next {
+                    right: 0;
+                }
+                .slick-slide {
+                    width: 25%;
+                    max-width: 25%;
+                    overflow: hidden;
+                }
+                img {
+                    display: block;
+                    max-width: 100%;
+                    height: auto;
+                }
+                .item-video {
+                    background: $black;
+                    cursor: pointer;
+                    position: relative;
+                    i {
+                        display: block;
+                        position: absolute;
+                        z-index: 9;
+                        font-size: pr(48);
+                        color: white;
+                        opacity: .75;
+                        text-shadow: pr(2) pr(2) pr(6) rgba($color: #000000, $alpha: .25);
+                        top: 50%;
+                        left: 50%;
+                        line-height: 1;
+                        margin-left: pr(-32);
+                        margin-top: pr(-24);
+                        @include animar(.3s);
+                    }
+                    &:hover {
+                        img {
+                            opacity: .5;
+                        }
+                        i {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.modal {
+    .modal-body {
+        padding: 0;
+        video {
+            display: block;
+            margin: 0;
+        }
+    }
+}
+@media all and ( max-width : ( $w_sm - 1 ) ) {
+    .page-home {
+        .section {
+            padding: pr(24) 0;
+            .section-title {
+                font-size: pr(24);
+            }
+            p {
+                font-size: pr(18);
+                text-align: center;
+                margin: .5em 0 0;
+            }
+            &.section-activities {
+                .list-video {
+                    width: 400vw;
+                    .item-video {
+                        width: 50vw;
+                    }
+                }
+            }
+        }
+
+    }
+    
+}

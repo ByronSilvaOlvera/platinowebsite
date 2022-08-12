@@ -1,0 +1,235 @@
+.schedule {
+    background: $primary;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: pr(320);
+    z-index: 10;
+    .header {
+        position: relative;
+        background: $primary;
+        height: pr(68);
+        z-index: 1;
+        .btn-cancel {
+            border: pr(1) solid white;
+            border-radius: 50%;
+            display: block;
+            color: white;
+            width: pr(32);
+            position: absolute;
+            height: pr(32);
+            top: pr(24);
+            left: pr(16);
+            text-align: center;
+            line-height: pr(30);
+            font-size: pr(18);
+            cursor: pointer;
+            &:hover {
+                color: $secondary;
+                border-color: $secondary;
+            }
+        }
+    }
+    .content {
+        z-index: 1;
+        background: $primary;
+        position: absolute;
+        height: calc( 100% - 68px );
+        top: pr(68);
+        left: 0;
+        overflow: auto;
+        right: 0;
+        input {
+            padding: pr(8) pr(16);
+            display: block;
+            color: $secondary;
+            background: transparent;
+            height: auto;
+            font-size: pr(14);
+            font-weight: 500;
+            border: pr(1) solid $secondary;
+            border-right: 0 none transparent;
+            border-radius: pr(3);
+            &::-webkit-input-placeholder {
+                color: $secondary;
+            }
+            &::-ms-input-placeholder {
+                color: $secondary;
+            }
+            &::placeholder {
+                color: $secondary;
+            }
+            &:focus {
+                box-shadow: 0 0 0 transparent;
+                outline: 0 none transparent;
+            }
+        }
+        .input-group {
+            margin-bottom: 0;
+            padding: pr(16);
+            .input-group-append {
+                .input-group-text {
+                    background: transparent;
+                    font-size: pr(18);
+                    color: $secondary;
+                    border: pr(1) solid $secondary;
+                    border-left: 0 none transparent;
+                }
+                background: transparent;
+            }
+        }
+        .form-group {
+            margin-bottom: 0;
+            padding: pr(16);
+            .form-control {
+                padding: pr(8) pr(16);
+                width: 100%;
+                display: block;
+                border: pr(1) solid $secondary;
+                color: $secondary;
+                background: transparent;
+                height: auto;
+                font-size: pr(14);
+                font-weight: 500;
+                border-radius: pr(3);
+                &::-webkit-input-placeholder {
+                    color: $secondary;
+                }
+                &::-ms-input-placeholder {
+                    color: $secondary;
+                }
+                &::placeholder {
+                    color: $secondary;
+                }
+            }
+        }
+        option {
+            background: $primary;
+            color: white;
+        }
+        textarea {
+            min-height: 8em;
+        }
+        .btn {
+            background: $secondary;
+            color: white;
+            font-size: pr(18);
+            text-transform: uppercase;
+            padding: pr(8) pr(16);
+        }
+    }
+	.add-event {
+		width: auto;
+		text-align: right;
+		position: absolute;
+		right: pr(24);
+		top: pr(20);
+		.text {
+			padding-right: pr(10);
+			float: left;
+		}
+		.icon {
+			float: right;
+		}
+		.title {
+			font-size: pr(16);
+			color: white;
+			font-weight: 500;
+		}
+		.sub {
+			color: white;
+			font-size: pr(11);
+			font-weight: 500;
+		}
+		i {
+			font-size: pr(18);
+			background: $primary;
+			color: white;
+			padding: pr(8);
+			margin-top: pr(-1);
+			vertical-align: top;
+			display: inline-block;
+			border-radius: 50%;
+			border: pr(4) solid white;
+			box-shadow: 0 0 0 pr(1) $primary;
+		}
+    }
+    .alert-success {
+        font-size: pr(11);
+        font-weight: 500;
+        padding: pr(12) pr(8);
+        margin: 0 auto;
+        max-width: 90%;
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .chosen-container {
+        .chosen-single {
+            box-shadow: 0 0 0px transparent;
+            font-size: pr(14);
+            border: 1px solid $secondary;
+            height: pr(40);
+            border-radius: pr(3);
+            color: $secondary;
+            padding: pr(8) pr(16);
+            background: $primary;
+            &:hover {
+                color: $secondary;
+            }
+            div b {
+                font-size: pr(24);
+                background: none;
+                &:before {
+                    position: absolute;
+                    top: pr(6);
+                    right: pr(4);
+                    content: "\F35D";
+                    display: inline-block;
+                    font: normal normal normal 24px/1 "Material Design Icons";
+                    font-size: inherit;
+                    text-rendering: auto;
+                    line-height: inherit;
+                    -webkit-font-smoothing: antialiased;
+                }
+            }
+        }
+        &.chosen-container-active {
+            
+            div b:before {
+                content: "\F360";
+            }
+        }
+        .chosen-drop {
+            background: $primary;
+            border-color: $secondary;
+        }
+        .chosen-results {
+            color: $secondary;
+            .active-result {
+                padding: pr(6) pr(12);
+            }
+            li.highlighted {
+                background: transparent;
+                background-image: none;
+                background-color: $secondary;
+                color: white;
+            }
+        }
+    }
+}
+.datepicker {
+    .datepicker--day-name {
+        color: $secondary;
+    }
+    .datepicker--cell.-selected-,
+    .datepicker--cell.-selected-.-current- {
+        background: $secondary;
+    }
+}
+@media all and ( max-width : ( $w_sm - 1 ) ) {
+    .schedule {
+        z-index: 100;
+    }
+}

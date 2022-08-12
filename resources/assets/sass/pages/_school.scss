@@ -1,0 +1,61 @@
+.page-school {
+    .section {
+        &.banner {
+            background: $black;
+            padding: 12vh 0;
+            text-align: center;
+            color: white;
+            .title {
+                font-size: pr(18);
+                font-weight: 400;
+            }
+            h2 {
+                font-size: pr(48);
+                color: $secondary;
+                text-transform: uppercase;
+                margin: .25em 0 .25em;
+            }
+            p {
+                font-size: pr(18);
+                margin-bottom: 1.5em;
+            }
+            .question {
+                font-size: pr(18);
+                color: $secondary;
+                font-weight: 400;
+            }
+            .btn-register {
+                background: $secondary;
+                font-size: pr(24);
+                color: white;
+                font-weight: 500;
+                text-transform: uppercase;
+                border-radius: pr(12);
+                margin: 1em 0 0;
+                padding: pr(4) pr(24);
+            }
+        }
+        &.articles {
+            padding: pr(24) 0;
+            .main {
+                h3 {
+                    font-size: pr(18);
+                    margin-bottom: 1em;
+                    color: $black;
+                    font-weight: 700;
+                }
+                p {
+                    font-size: pr(14);
+                    margin-bottom: 1em;
+                }
+                h5 {
+                    font-size: pr(24);
+                    color: $secondary;
+                }
+            }
+            .article {
+                font-size: 18px;
+            }
+        }
+    }
+}

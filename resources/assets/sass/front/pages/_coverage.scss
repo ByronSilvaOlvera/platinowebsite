@@ -1,0 +1,389 @@
+@import "../../api";
+@import "../../variables";
+.page-coverage {
+    background: $black;
+    @include bgcover( '~/imgs/bg-service.jpg' );
+    .page-header {
+        background: transparent;
+        .btn-menu {
+            color: white;
+            border: 0 none transparent;
+        }
+        .add-event {
+            color: white;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+    .section {
+        color: white;
+        padding-top: pr(32);
+        .title {
+            color: $secondary;
+            font-weight: 500;
+            font-size: pr(36);
+            margin-bottom: .5em;
+        }
+        p {
+            font-size: pr(18);
+            @include fontQuick();
+        }
+    }
+    .tabs {
+        text-align: center;
+        margin: pr(32) 0 pr(12);
+        button {
+            display: inline-block;
+            background: transparent;
+            color: $secondary;
+            border: 0 none transparent;
+            font-size: pr(14);
+            &.active {
+                color: white;
+            }
+            &:focus,
+            &:active {
+                box-shadow : 0 none transparent;
+                outline: 0 none transparent;
+            }
+            &:nth-child(2) {
+                margin: 0 pr(64);
+            }
+            i {
+                font-size: pr(36);
+            }
+        }
+    }
+    .map {
+        display: block;
+        position: relative;
+        text-align: center;
+        margin-bottom: pr(36);
+        .base {
+            max-width: pr(606);
+            max-height: pr(676);
+            width: 100%;
+            height: auto;
+            position: relative;
+            display: inline-block;
+            > img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+        .provinces {
+            position: absolute;
+            left: 2.75%;
+            top: 0%;
+            width: 53.30%;
+            height: 81.80%;
+        }
+        ul {
+            li {
+                position: absolute;
+                text-align: center;
+                .box-icon {
+                    text-align: center;
+                }
+                .icon {
+                    color: white;
+                    display: inline-block;
+                    background: $secondary;
+                    width: pr(32);
+                    height: pr(32);
+                    line-height: pr(36);
+                    font-size: pr(24);
+                    border-radius: 50%;
+                    position: relative;
+                    &:before {
+                        content: " ";
+                        position: absolute;
+                        border-radius: 50%;
+                        top: pr(-6);
+                        left: pr(-6);
+                        right: pr(-6);
+                        bottom: pr(-6);
+                        width: auto;
+                        height: auto;
+                        border: pr(2) dashed $secondary;
+                    }
+                }
+                .text {
+                    display: inline-block;
+                    position: absolute;
+                    background: $secondary;
+                    color: white;
+                    font-size: pr(9);
+                    line-height: 1.5;
+                    padding: pr(2) pr(10);
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    border-radius: pr(4);
+                }
+            }
+        }
+        .office {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            ul {
+                .pichincha {
+                    left: 41%;
+                    top: 20.5%;
+                    .text {
+                        bottom: pr(-30);
+                        left: -65%;
+                    }
+                }
+                .santo-domingo {
+                    left: 29.5%;
+                    top: 24%;
+                    .text {
+                        bottom: pr(-46);
+                        left: -55%;
+                    }
+                }
+                .guayas {
+                    left: 16%;
+                    top: 50%;
+                    .text {
+                        bottom: pr(-30);
+                        left: -48%;
+                    }
+                }
+            }
+        }
+        .unit {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            ul {
+                .imbabura {
+                    left: 46%;
+                    top: 13%;
+                    .text {
+                        top: pr(-30);
+                        left: -75%;
+                    }
+                }
+                .esmeraldas {
+                    left: 30%;
+                    top: 9%;
+                    .text {
+                        bottom: pr(-30);
+                        left: -65%;
+                    }
+                }
+                .pichincha {
+                    left: 41%;
+                    top: 20.5%;
+                    .text {
+                        bottom: pr(-30);
+                        left: -65%;
+                    }
+                }
+                .manabi {
+                    left: 15%;
+                    top: 28%;
+                    .text {
+                        bottom: pr(-30);
+                        left: -55%;
+                    }
+                }
+                .santo-domingo {
+                    left: 29.5%;
+                    top: 24%;
+                    .text {
+                        bottom: pr(-46);
+                        left: -55%;
+                    }
+                }
+                .tungurahua {
+                    left: 41%;
+                    top: 40%;
+                    .text {
+                        bottom: pr(-46);
+                        left: -65%;
+                    }
+                }
+                .guayas {
+                    left: 16%;
+                    top: 50%;
+                    .text {
+                        bottom: pr(-30);
+                        left: -48%;
+                    }
+                }
+                .los-rios {
+                    left: 24%;
+                    top: 40%;
+                    .text {
+                        bottom: pr(-46);
+                        left: -50%;
+                    }
+                }
+                .azuay {
+                    bottom: 28%;
+                    left: 30%;
+                    .text {
+                        bottom: pr(-42);
+                        left: -48%;
+                    }
+                }
+                .el-oro {
+                    left: 18%;
+                    bottom: 21%;
+                    .text {
+                        bottom: pr(-46);
+                        left: -65%;
+                    }
+                }
+            }
+        }
+        .truck {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            .cover {
+                position: absolute;
+                width: 78.87%;
+                top: 12.5%;
+                left: 10%;
+                height: 80.32%;
+            }
+            div[class^="point-"] {
+                width: pr(5);
+                height: pr(5);
+                border-radius: 50%;
+                position: absolute;
+                background: #00A9B0;
+                box-shadow: pr(0) pr(0) pr(8) pr(8) $secondary;
+            }
+            .point-1 {
+                left: 42%;
+                top: 12.75%;
+            }
+            .point-2 {
+                left: 49.5%;
+                top: 20.5%;
+            }
+            .point-3 {
+                left: 27%;
+                top: 14%;
+            }
+            .point-4 {
+                left: 46.5%;
+                top: 26%;
+            }
+            .point-5 {
+                left: 47.75%;
+                top: 34.5%;
+            }
+            .point-6 {
+                left: 32.5%;
+                top: 38%;
+            }
+            .point-7 {
+                left: 25%;
+                top: 29%;
+            }
+            .point-8 {
+                left: 17.5%;
+                top: 31.5%;
+            }
+            .point-9 {
+                left: 40%;
+                top: 48%;
+            }
+            .point-10 {
+                left: 66%;
+                top: 34%;
+            }
+            .point-11 {
+                left: 76.5%;
+                top: 30.5%;
+            }
+            .point-12 {
+                left: 68%;
+                top: 41.5%;
+            }
+            .point-13 {
+                left: 88%;
+                top: 38%;
+            }
+            .point-14 {
+                left: 66.5%;
+                top: 59%;
+            }
+            .point-15 {
+                left: 43.5%;
+                top: 54.5%;
+            }
+            .point-16 {
+                left: 51.5%;
+                top: 62%;
+            }
+            .point-17 {
+                left: 12%;
+                top: 53%;
+            }
+            .point-18 {
+                left: 22%;
+                top: 72%;
+            }
+            .point-19 {
+                left: 31%;
+                top: 71%;
+            }
+            .point-20 {
+                left: 31.75%;
+                top: 92%;
+            }
+            line,
+            path {
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+                animation: dash 5s linear forwards;
+            }
+            
+            @keyframes dash {
+                to {
+                    stroke-dashoffset: 0;
+                }
+            }
+            .legend {
+                position: absolute;
+                right: 2%;
+                width: 46.03%;
+                height: 10.50%;
+                bottom: 16%;
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .provinces {
+        path {
+           &.hidden {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+    .hidden {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+}

@@ -1,0 +1,86 @@
+@function clr( $color , $o : 1 ) {
+	@return rgba( $color , $color , $color , $o );
+}
+
+@mixin bg( $value ) {
+	background: $value;
+}
+@mixin bgc( $color ) {
+	background-color: $color;
+}
+@mixin bgimg( $img ) {
+	background-image: $img;
+}
+@mixin fontQuick() {
+	font-family: 'Quicksand';
+	font-display: fallback;
+}
+@mixin fontMont() {
+	font-family: 'Montserrat';
+	font-display: fallback;
+}
+@mixin bgcover( $img ) {
+	background-image: url( $img );
+	background-position: center center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+@mixin bgcont( $img ) {
+	background-image: url( $img );
+	background-position: center center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+
+}
+@function clr( $color , $o : 1 ) {
+	@return rgba( $color , $color ,  $color , $o );
+}
+@function pr( $size : 16 ) {
+	@return $size * 0.1rem;
+}
+@mixin w( $w ) {
+	width: $w;
+}
+@mixin fs( $value ) {
+	font-size: $value;
+}
+@mixin h( $h ) {
+	height: $h;
+}
+@mixin br( $radius ) {
+	border-radius: $radius;
+	-o-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}
+@mixin bs( $args ) {
+	box-shadow: $args;
+	-o-box-shadow: $args;
+	-ms-box-shadow: $args;
+	-moz-box-shadow: $args;
+	-webkit-box-shadow: $args;
+}
+@mixin animar( $time ) {
+
+	-webkit-transition: all $time ease-in-out;
+	-moz-transition: all $time ease-in-out;
+	-ms-transition: all $time ease-in-out;
+	-o-transition: all $time ease-in-out;
+	transition: all $time ease-in-out;
+}
+@mixin filter_blur( $args ) {
+	filter: blur( $args );
+	-o-filter: blur( $args );
+	-ms-filter: blur( $args );
+	-moz-filter: blur( $args );
+	-webkit-filter: blur( $args );
+}

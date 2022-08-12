@@ -1,0 +1,65 @@
+@import "../../../api";
+.page-home {
+    .slider {
+        position: relative;
+        background: #212121;
+        ol {
+            margin-bottom: 0;
+            li {
+                border-radius: 50%;
+                width: pr(12);
+                height: pr(12);
+                &.active {
+                    background-color: $secondary;
+                }
+            }
+        }
+        .carousel-caption {
+            top: 0;
+            bottom: 0;
+            .text {
+                width: 100%;
+                h6 {
+                    font-family: 'Quicksand';
+                    font-weight: 400;
+                    font-size: pr(20);
+                }
+                h2 {
+                    font-weight: 400;
+                    font-size: pr(72);
+                }
+            }
+        }
+        #particles-js {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            z-index: 1;
+        }
+    }
+}
+@media all and ( max-width : ( $w_sm - 1 ) ) {
+    .page-home {
+        .slider {
+            ol {
+                li {
+                    width: pr(8);
+                    height: pr(8);
+                }
+            }
+            .carousel-caption {
+                .text {
+                    h6 {
+                        font-size: pr(14);
+                    }
+                    h2 {
+                        font-size: pr(28);
+                    }
+                }
+            }
+        }
+    }
+    
+}

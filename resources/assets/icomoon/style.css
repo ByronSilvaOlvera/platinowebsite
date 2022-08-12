@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?4nw2km');
+  src:  url('fonts/icomoon.eot?4nw2km#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4nw2km') format('truetype'),
+    url('fonts/icomoon.woff?4nw2km') format('woff'),
+    url('fonts/icomoon.svg?4nw2km#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-second:before {
+  content: "\e91f";
+}
+.icon-platino-mkt:before {
+  content: "\e91e";
+}
+.icon-rank-level:before {
+  content: "\e906";
+}
+.icon-camera:before {
+  content: "\e915";
+}
+.icon-oculus:before {
+  content: "\e916";
+}
+.icon-drone:before {
+  content: "\e917";
+}
+.icon-hand:before {
+  content: "\e918";
+}
+.icon-data-search:before {
+  content: "\e919";
+}
+.icon-currency:before {
+  content: "\e91b";
+}
+.icon-shield:before {
+  content: "\e91c";
+}
+.icon-people:before {
+  content: "\e91d";
+}
+.icon-truck:before {
+  content: "\e912";
+}
+.icon-person:before {
+  content: "\e913";
+}
+.icon-office:before {
+  content: "\e914";
+}
+.icon-service-insights:before {
+  content: "\e90b";
+}
+.icon-service-compare:before {
+  content: "\e90c";
+}
+.icon-service-implementation:before {
+  content: "\e90d";
+}
+.icon-service-inventory:before {
+  content: "\e90e";
+}
+.icon-service-impact:before {
+  content: "\e90f";
+}
+.icon-service-swap:before {
+  content: "\e910";
+}
+.icon-service-sale:before {
+  content: "\e911";
+}
+.icon-investigation:before {
+  content: "\e907";
+}
+.icon-puzzle:before {
+  content: "\e908";
+}
+.icon-stars:before {
+  content: "\e909";
+}
+.icon-velocimeter:before {
+  content: "\e90a";
+}
+.icon-calendar:before {
+  content: "\e900";
+}
+.icon-core:before {
+  content: "\e901";
+}
+.icon-creative:before {
+  content: "\e902";
+}
+.icon-logistic:before {
+  content: "\e903";
+}
+.icon-rank:before {
+  content: "\e904";
+}
+.icon-science:before {
+  content: "\e905";
+}
+.icon-space:before {
+  content: "\e91a";
+}

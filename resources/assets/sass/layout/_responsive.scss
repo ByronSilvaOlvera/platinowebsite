@@ -1,0 +1,12 @@
+@media all and ( min-width : 1600px ) {
+    html , body {
+        font-size: 11px;
+    }
+}
+
+@media all and ( min-width : $w_sm ) {
+    
+}
+@media all and ( max-width : ( $w_sm - 1 ) ) {
+    
+}

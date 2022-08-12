@@ -1,0 +1,264 @@
+@import "../../api";
+@import "../../variables";
+.page-school {
+    .section {
+        &.banner {
+            background: $black;
+            position: relative;
+            text-align: center;
+            color: white;
+            #carousel {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 0;
+                height: 60vh;
+                overflow: hidden;
+            }
+            .container {
+                position: relative;
+                height: 60vh;
+                padding-top: 5vh;
+                padding-bottom: 5vh;
+                z-index: 1;
+                .row {
+                    height: 100%;
+                }
+            }
+            .title {
+                font-size: pr(18);
+                @include fontQuick();
+                font-weight: 400;
+            }
+            h2 {
+                font-size: pr(48);
+                color: $secondary;
+                text-transform: uppercase;
+                margin: .25em 0 .25em;
+            }
+            p {
+                font-size: pr(18);
+                margin-bottom: 1.5em;
+                @include fontQuick();
+            }
+            .question {
+                font-size: pr(24);
+                color: $secondary;
+                font-weight: 400;
+                @include fontQuick();
+            }
+            .btn-register {
+                background: $secondary;
+                font-size: pr(24);
+                color: white;
+                font-weight: 500;
+                text-transform: uppercase;
+                border-radius: pr(12);
+                margin: 1em 0 0;
+                padding: pr(4) pr(24);
+            }
+        }
+        &.articles {
+            padding: pr(24) 0;
+            .main {
+                h3 {
+                    font-size: pr(24);
+                    margin-bottom: .5em;
+                    color: $black;
+                    font-weight: 700;
+                }
+                p {
+                    font-size: pr(18);
+                    @include fontQuick();
+                    margin-bottom: 1em;
+                }
+                h5 {
+                    font-size: pr(24);
+                    color: $secondary;
+                }
+            }
+            .article {
+                font-size: 18px;
+                margin-top: pr(24);
+                h3 {
+                    color: $black;
+                    font-weight: 700;
+                    font-size: pr(24);
+                    margin-bottom: pr(16);
+                    cursor: pointer;
+                    &:hover {
+                        color: $secondary;
+                    }
+                }
+                p {
+                    font-size: pr(18);
+                    margin: 0;
+                    @include fontQuick();
+                    &:before {
+                        content: "“";
+                    }
+                    &:after {
+                        content: "”";
+                    }
+                }
+                .author {
+                    font-size: pr(14);
+                }
+            }
+            .col-auto {
+                padding: 0 pr(15);
+                position: relative;
+                cursor: pointer;
+                img {
+                    display: block;
+                    width: 100%;
+                    max-width: 100%;
+                    height: auto;
+                }
+                i {
+                    display: block;
+                    position: absolute;
+                    z-index: 9;
+                    font-size: pr(64);
+                    color: white;
+                    opacity: .75;
+                    text-shadow: pr(2) pr(2) pr(6) rgba($color: #000000, $alpha: .25);
+                    top: 50%;
+                    left: 50%;
+                    line-height: 1;
+                    margin-left: pr(-32);
+                    margin-top: pr(-32);
+                    @include animar(.3s);
+                }
+                &:hover {
+                    i {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+.modal-school  {
+    background: rgba(0, 0, 0, .75);
+    label {
+        font-size: pr(18);
+        font-weight: 500;
+        color: $secondary;
+        text-align: center;
+    }
+    .col-response {
+        padding-right: 0;
+        text-align: right;
+    }
+    .alert-success {
+        padding-right: 0;
+        font-size: pr(14);
+        text-align: center;
+        padding: pr(8) pr(16);
+        border-radius: pr(4);
+        margin-bottom: pr(16);
+        display: inline-block;
+        p {
+            margin-bottom: pr(0);
+        }
+    }
+    .btn-close {
+        position: absolute;
+        top: pr(-16);
+        right: pr(-16);
+        font-size: pr(32);
+        padding: 0;
+        height: auto;
+        line-height: 1;
+        background: transparent;
+        color: white;
+        border: 0 none transparent;
+    }
+    .legend {
+        font-size: pr(16);
+        padding-top: pr(16);
+        @include fontQuick();
+        margin-bottom: pr(16);
+        text-align: center;
+        font-weight: 500;
+        color: $secondary;
+    }
+    input {
+        font-size: pr(18);
+    }
+    .modal-footer {
+        border-top: 0 none transparent;
+        text-align: center;
+        .btn-close {
+            color: white;
+        }
+        button {
+            background: $secondary;
+            font-size: pr(16);
+            z-index: 99;
+            border-color: $secondary;
+        }
+        .btns {
+            max-width: 80%;
+            margin: auto;
+        }
+    }
+}
+@media all and ( max-width : ( $w_sm - 1 ) ) {
+    .page-school {
+        .section {
+            &.banner {
+                background: white;
+                padding: 0 0;
+                height: auto;
+                h4 {
+                    margin-top: pr(15);
+                    font-size: pr(12);
+                }
+                h2 {
+                    font-size: pr(24);
+                    margin-bottom: pr(60)
+                }
+                p {
+                    color: $black;
+                    margin-bottom: pr(14);
+                }
+                .btn-register {
+                    margin-top: pr(16);
+                }
+                .container {
+                    height: auto;
+                    padding-top: pr(30);
+                    padding-bottom: pr(0);
+                }
+            }
+            &.articles {
+                .main {
+                    h3 {
+                        font-size: pr(18);
+                    }
+                    p {
+                        font-size: pr(16);
+                    }
+                    h5 {
+                        font-size: pr(18);
+                    }
+                }
+                .col-auto {
+                    width: 100%;
+                }
+                .article {
+                    h3 {
+                        font-size: pr(18);
+                        margin-top: pr();
+                    }
+                    p {
+                        font-size: pr();
+                    }
+                }
+            }
+        }
+    }
+}

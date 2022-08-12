@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+	background: rgba(215,215,215,1);
+}
+.img-home {
+	position: relative;
+	max-height: 60vh;
+	width: auto;
+	display: inline-block;
+	margin: auto;
+	margin-top: 15vh;
+}
+footer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 13px;
+	color: #666666;
+	font-weight: 500;
+	font-weight: 
+}

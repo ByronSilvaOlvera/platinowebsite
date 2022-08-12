@@ -1,0 +1,142 @@
+[12-Jul-2019 20:27:43 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:27:43 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:27:43 UTC] PHP Fatal error:  require(): Failed opening required '/home/promogaz/platinomkt.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:34 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:34 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/promogaz/platinomkt.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:42 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:42 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:42 UTC] PHP Fatal error:  require(): Failed opening required '/home/promogaz/platinomkt.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:49 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:49 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:49 UTC] PHP Fatal error:  require(): Failed opening required '/home/promogaz/platinomkt.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:58 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:58 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:30:58 UTC] PHP Fatal error:  require(): Failed opening required '/home/promogaz/platinomkt.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:31:09 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:31:09 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:31:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/promogaz/platinomkt.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:31:37 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:31:37 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:31:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/promogaz/platinomkt.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:33:52 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:33:52 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 20:33:52 UTC] PHP Fatal error:  require(): Failed opening required '/home/promogaz/platinomkt.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 15:36:54 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:36:54 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:14 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:14 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:17 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:17 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:17 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:17 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:18 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:18 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:19 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:19 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:20 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 15:37:20 America/Guayaquil] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:790
+Stack trace:
+#0 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('view')
+#1 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('view')
+#2 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve('view', Array)
+#3 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make('view', Array)
+#4 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1225): Illuminate\Foundation\Application->make('view')
+#5 /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.p in /home/promogaz/platinomkt.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 790
+[12-Jul-2019 21:06:41 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 21:06:41 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 21:06:41 UTC] PHP Fatal error:  require(): Failed opening required '/home/promogaz/platinomkt.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 21:07:03 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 21:07:03 UTC] PHP Warning:  require(/home/promogaz/platinomkt.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/promogaz/platinomkt.com/public/index.php on line 24
+[12-Jul-2019 21:07:03 UTC] PHP Fatal error:  require(): Failed opening required '/home/promogaz/platinomkt.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/promogaz/platinomkt.com/public/index.php on line 24

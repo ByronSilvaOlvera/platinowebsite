@@ -1,0 +1,88 @@
+@import "../../api";
+.page-header {
+	.menu {
+		display: block;
+		width: auto;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding: 0;
+		margin: 0 0 pr(20);
+		.nav {
+			border-top-left-radius: pr(25); 
+			border-bottom-left-radius: pr(25); 
+			background: $primary;
+		}
+		ul  {
+			margin: 0;
+			padding-left: pr(20);
+			li {
+				display: inline-block;
+				color: $secondary;
+				font-size: pr(14);
+				font-weight: 500;
+				a {
+					color: inherit;
+					display: block;
+					padding: pr(12) pr(16);
+					@include animar(.3s);
+					margin: 0;
+					&:hover {
+						color: white;
+					}
+				}
+				&.active {
+					a {
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media all and ( min-width : $w_sm ) {
+    
+}
+@media all and ( max-width : ($w_sm - 1) ) {
+    .page-header {
+		z-index: 99;
+		position: sticky;
+        .menu {
+			visibility: hidden;
+			@include animar(.3s);
+			top: pr(64);
+			margin: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			opacity: 0;
+			z-index: 0;
+			height: 0;
+			overflow: hidden;
+			.nav {
+				border-radius: 0;
+			}
+			ul  {
+				width: 100%;
+				padding: 0;
+				li {
+					display: block;
+					text-align: center;
+					border-bottom: pr(1) solid clr(255,.125);
+					width: 100%;
+					font-weight: 500;
+					a {
+						display: inline-block;
+					}
+				}
+			}
+			&.open {
+				visibility: visible;
+				top: pr(64);
+				height: pr(276);
+				opacity: 1;
+			}
+        }
+    }
+}

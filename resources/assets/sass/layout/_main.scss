@@ -1,0 +1,63 @@
+@import "../api";
+body {
+	background: white;
+}
+.sideright-widgets-social {
+	position: fixed;
+	z-index: 2;
+	background: #002062;
+	ul {
+		margin: 0;
+		li {
+			margin: 0;
+		}
+	}
+	a {
+		width: pr(32);
+		height: pr(32);
+		border-radius: 50%;
+		background: #00A7AE;
+		border: pr(2) solid #002062;
+		box-shadow: 0 0 pr(0) pr(2) #00A7AE;
+		text-align: center;
+		@include animar(.1s);
+		&:hover {
+			box-shadow: 0 0 pr(0) pr(3) #00A7AE;
+
+		}
+		i {
+			color: white;
+			font-size: pr(18);
+		}
+	}
+}
+@media all and ( min-width : $w_sm ) {
+    .sideright-widgets-social {
+		margin-top: pr(-84);
+		height: pr(168);
+		width: auto;
+		top: 50%;
+		right: 0;
+		border-top-left-radius: pr(32);
+		border-bottom-left-radius: pr(32);
+		a {
+			margin: pr(18) pr(14) 0;
+			display: block;
+		}
+	}
+}
+@media all and ( max-width : ( $w_sm - 1 ) ) {
+    .sideright-widgets-social {
+		margin-right: pr(-125);
+		bottom: 0;
+		height: auto;
+		width: pr(250);
+		right: 50%;
+		border-top-left-radius: pr(36);
+		border-top-right-radius: pr(36);
+		a {
+			margin: pr(20) pr(20) pr(10);
+			display: inline-block;
+		}
+	}
+}

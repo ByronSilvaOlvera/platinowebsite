@@ -1,0 +1,28 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Quicksand:400,500&display=swap");
+@import "~@mdi/font/scss/materialdesignicons";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Animate Css
+@import '~animate.css/animate.min.css';
+
+// Icomoon
+@import '../../icomoon/style.css';
+
+// Slick Carousel
+$slick-font-path: "~slick-carousel/slick/fonts/";
+$slick-loader-path: "~slick-carousel/slick/";
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
+// FancyBox
+@import "~@fancyapps/fancybox/dist/jquery.fancybox.min.css";
+
+// Air Datepicker
+@import "~air-datepicker/dist/css/datepicker.min.css";
+
+// ChosenJs
+@import "~chosen-js/chosen.min.css";

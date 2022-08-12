@@ -1,0 +1,29 @@
+@import "../api";
+@import "../variables";
+.page-coverage {
+    background: #1A1A1A;
+    @include bgcover( '~/imgs/bg-service.jpg' );
+    .page-header {
+        background: transparent;
+        .add-event {
+            color: white;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+    .section {
+        min-height: pr(1200);
+        color: white;
+        padding-top: pr(32);
+        .title {
+            color: $secondary;
+            font-weight: 500;
+            font-size: pr(36);
+            margin-bottom: .5em;
+        }
+        p {
+            font-size: pr(18);
+        }
+    }
+}

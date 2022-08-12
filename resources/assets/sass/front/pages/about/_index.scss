@@ -1,0 +1,787 @@
+@import "../../../api";
+.page-about {
+    .hidden {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+@media all and ( min-width : ( $w_sm ) ) {
+    .page-about {
+        .vision-mision {
+            padding: pr(36) 0;
+            h2 {
+                font-size: pr(36);
+                text-align: center;
+                margin: 0 0 1em;
+            }
+            p {
+                font-size: pr(18);
+                line-height: 1.75; 
+                margin: 0;
+                text-align: justify;
+                @include fontQuick();
+            }
+        }
+        .col-mision {
+            padding-right: pr(50);
+        }
+        .col-vision {
+            padding-left: pr(50);
+        }
+        .separator {
+            width: pr(60);
+        }
+        .section {
+            width: 100%;
+            padding-top: pr(36);
+            background: #1a1a1a;
+        }
+        .hitos-title {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: pr(36);
+            color: white;
+            font-weight: 700;
+        }
+        .we-canvas {
+            position: relative;
+            padding: 0 2vw;
+            .we-box {
+                display: block;
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                overflow: hidden;
+            }
+            .we-inner {
+                display: block;
+                width: 300vw;
+            }
+            .bold {
+                font-weight: 700 !important;
+            }
+            .we-item {
+                height: pr(520);
+                position: relative;
+                float: left;
+                width: 32vw;
+                &.cyan {
+                    .entry-year {
+                        color: $secondary;
+                        .line {
+                            &.vertical {
+                                &:before {
+                                    background: $secondary;
+                                }
+                            }
+                        }
+                    }
+                    .entry-item {
+                        color: $secondary;
+                        .line {
+                            &:before {
+                                background: $secondary;
+                            }
+                        }
+                    }
+                    .circle {
+                        color: $secondary;
+                        .box-circle {
+                            border-color: $secondary;
+                            &:after {
+                                border-color: $secondary;
+                            }
+                            .inner {
+                                border-color: $secondary;
+                                &:before {
+                                    background: $secondary;
+                                }
+                                &:after {
+                                    background: $secondary;
+                                }
+                            }
+                        }
+                    }
+                    .line {
+                        background: $secondary;
+                    }
+                }
+                .entry-year {
+                    width: pr(120);
+                    height: auto;
+                    top: pr(80);
+                    bottom: 50%;
+                    left: 0;
+                    color: $silver;
+                    position: absolute;
+                    ._title {
+                        font-size: pr(20);
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        padding-bottom: pr(16);
+                        bottom: 100%;
+                        color: inherit;
+                        margin-left: -50%;
+                        text-align: center;
+                        line-height: 1.25;
+                        width: 200%;
+                        position: absolute;
+                        height: auto;
+                    }
+                    .line {
+                        &.vertical {
+                            &:before {
+                                position: absolute;
+                                top: pr(-6);
+                                background: $silver;
+                                width: pr(12);
+                                height: pr(12);
+                                content: " ";
+                                left: pr(-5);
+                                border-radius: 50%;
+                            }
+                            left: 50%;
+                            top: 0;
+                            margin-left: pr(-1);
+                            height: 100%;
+                            width: pr(2);
+                        }
+                    }
+                }
+                .entry-item {
+                    width: pr(170);
+                    height: 20%;
+                    position: absolute;
+                    color: $silver;
+                    ._title {
+                        font-size: pr(24);
+                        font-weight: 700;
+                        color: inherit;
+                        text-align: center;
+                        width: 100%;
+                        position: absolute;
+                        height: auto;
+                    }
+                    ._subtitle {
+                        font-size: pr(14);
+                        font-weight: 400;
+                        color: inherit;
+                        text-align: left;
+                        width: 100%;
+                        position: absolute;
+                        height: auto;
+                    
+                    }
+                    .item-icon {
+                        color: inherit;
+                        font-size: pr(72);
+                        position: absolute;
+                        line-height: 1;
+                    }
+                    .line {
+                        &.vertical {
+                            position: relative;
+                            left: 0;
+                            top: 0;
+                            height: 100%;
+                            width: pr(2);
+                        }
+                        &:before {
+                            position: absolute;
+                            background: $silver;
+                            width: pr(12);
+                            height: pr(12);
+                            content: " ";
+                            border-radius: 50%;
+                        }
+                    }
+                    .list {
+                        li {
+                            font-size: pr(13);
+                            color: inherit;
+                            text-align: left;
+                            &:before {
+                                content: "-";
+                                margin-right: pr(6);
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    &.clientes {
+                        height: pr(100);
+                        left: 65%;
+                        top: 50%;
+                        .line {
+                            &:before {
+                                bottom: pr(-6);
+                                left: pr(-5);
+                            }
+                        }
+                        ._title {
+                            margin-left: -50%;
+                            margin-top: pr(16);
+                            text-align: center;
+                            margin-bottom: pr(16);
+                        }
+                        .list {
+                            position: relative;
+                            margin-top: pr(52);
+                            margin-left: -50%;
+                            text-align: center;
+                            width: 140%;
+                        }
+                        .legend {
+                            width: 180%;
+                            position: absolute;
+                            left: 0;
+                            margin-top: pr(-80);
+                            font-size: pr(13);
+                            padding-left: pr(16);
+                            padding-top: pr(16);
+                            line-height: 1.125;
+                            span {
+                                font-size: pr(16);
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+                .circle {
+                    position: absolute;
+                    width: pr(110);
+                    height: pr(110);
+                    top: 50%;
+                    color: $silver;
+                    margin-top: pr(-55);
+                    z-index: 9;
+                    .box-circle {
+                        width: pr(110);
+                        height: pr(110);
+                        border-radius: 50%;
+                        background: $black;
+                        border: pr(6) solid $silver;
+                        &:before {
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            top: 0;
+                            border-top: pr(110) solid transparent; 
+                            border-right: pr(110) solid $black; 
+                            content: " ";
+                        }
+                        &:after {
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            top: 0;
+                            margin: pr(12);
+                            border-radius: 50%;
+                            border: pr(1) solid $silver;
+                            content: " ";
+                        }
+                        .inner {
+                            position: relative;
+                            border-radius: 50%;
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            top: 0;
+                            margin: pr(3);
+                            border: pr(1) solid $silver;
+                            &:before {
+                                display: block;
+                                position: absolute;
+                                left: pr(18);
+                                bottom: pr(7);
+                                content: " ";
+                                width: pr(8);
+                                height: pr(8);
+                                background: $silver;
+                                border-radius: 50%;
+                            }
+                            &:after {
+                                display: block;
+                                position: absolute;
+                                right: pr(7);
+                                top: pr(18);
+                                content: " ";
+                                width: pr(8);
+                                height: pr(8);
+                                background: $silver;
+                                border-radius: 50%;
+                            }
+                        }
+                    }
+                    .year {
+                        position: absolute;
+                        left: 0;
+                        font-weight: 700;
+                        font-size: pr(22);
+                        color: inherit;
+                        top: 0;
+                        right: 0;
+                        text-align: center;
+                        line-height: pr(110)
+                    }
+                }
+                .line {
+                    position: absolute;
+                    z-index: 0;
+                    background: $silver;
+                }
+                .ecuatorial {
+                    top: 50%;
+                    width: 100%;
+                    height: pr(4);
+                    left: 0;
+                    right: 0;
+                    margin-top: pr(-2);
+                }
+            }
+            .wi_1999 {
+                width: 36vw;
+                .reclutamiento {
+                    left: 40%;
+                    transform-origin: 50% 100%;
+                    bottom: 50%;
+                    .line {
+                        &:before {
+                            top: pr(-6);
+                            left: pr(-5);
+                        }
+                    }
+                    ._subtitle {
+                        padding-bottom: pr(16);
+                        bottom: 100%;
+                    }
+                    .item-icon {
+                        bottom: pr(-10);
+                        margin-left: 5%;
+                    }
+                }
+                .clientes {
+                    transform-origin: 50% 0%;
+                }
+                .entry-year {
+                    transform-origin: 50% 100%;
+                }
+            }
+            .wi_2002 {
+                width: 50vw;
+                .ampliacion {
+                    left: 35%;
+                    bottom: 50%;
+                    .line {
+                        &:before {
+                            top: pr(-6);
+                            left: pr(-5);
+                        }
+                    }
+                    ._subtitle {
+                        padding-bottom: pr(16);
+                        bottom: 100%;
+                    }
+                    .item-icon {
+                        font-size: pr(48);
+                        bottom: pr(-6);
+                        margin-left: pr(30);
+                        width: 200%;
+                        i {
+                            display: inline-block;
+                            vertical-align: bottom;
+                            line-height: 1;
+                        }
+                        .mini {
+                            font-size: pr(36);
+                            margin-left: pr(-12);
+                            margin-bottom: pr(2);
+                        }
+                    }
+                    .list {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        margin-left: pr(12);
+                        width: 160%;
+                        bottom: pr(0);
+                        li {
+                            font-size: pr(12);
+                        }
+                    }
+                }
+            }
+            .wi_2008 {
+                width: 42vw;
+                .entry-year {
+                    ._title {
+                        left: -50%;
+                        width: 300%;
+                    }
+                }
+                .seguridad {
+                    left: pr(160);
+                    bottom: 50%;
+                    .line {
+                        &:before {
+                            top: pr(-6);
+                            left: pr(-5);
+                        }
+                    }
+                    .title-icon {
+                        position: absolute;
+                        left: pr(-17);
+                        top: pr(-45);
+                        .icon-box {
+                            font-size: pr(36);
+                            display: inline-block;
+                            vertical-align: top;
+                        }
+                        p {
+                            margin: 0;
+                            display: inline-block;
+                            vertical-align: top;
+                            line-height: 1.25;
+                            font-size: pr(16)
+                        }
+                    }
+                }
+                .solvencia {
+                    left: pr(240);
+                    height: pr(40);
+                    bottom: 50%;
+                    .line {
+                        &:before {
+                            top: pr(-6);
+                            left: pr(-5);
+                        }
+                    }
+                    .title-icon {
+                        position: absolute;
+                        left: pr(-17);
+                        top: pr(-45);
+                        .icon-box {
+                            font-size: pr(36);
+                            display: inline-block;
+                            vertical-align: top;
+                        }
+                        p {
+                            margin: 0;
+                            display: inline-block;
+                            vertical-align: top;
+                            line-height: 1.25;
+                            font-size: pr(16)
+                        }
+                    }
+                }
+            }
+            .wi_2013 {
+                width: 36vw;
+                .entry-year {
+                    ._title {
+                        font-size: pr(56);
+                        padding-bottom: pr(8);
+                        i {
+                            margin-left: pr(-16);
+                        }
+                    }
+                }
+                .entry-item {
+                    &.clientes {
+                        margin-top: pr(20);
+                        left: pr(60);
+                    }
+                }
+                .facturacion {
+                    left: 45%;
+                    bottom: 50%;
+                    ._title {
+                        font-size: pr(112);
+                        left: -45%;
+                        top: pr(-144);
+                        padding-bottom: pr(8);
+                        i {
+                            margin-left: pr(-16);
+                        }
+                    }
+                    .line {
+                        &:before {
+                            top: pr(-6);
+                            left: pr(-5);
+                        }
+                    }
+                }
+                .departamentos {
+                    left: 70%;
+                    top: 50%;
+                    .line {
+                        &.vertical {
+                            height: pr(30);
+                            margin-bottom: pr(50);
+                        }
+                        &.dotted {
+                            height: pr(25);
+                            background: transparent;
+                            border-left: pr(2) dotted $secondary;
+                            &:before {
+                                display: none;
+                            }
+                            + ._title {
+                                margin-top: pr(-45);
+                            }
+                        }
+                        &:before {
+                            bottom: pr(-6);
+                            left: pr(-5);
+                        }
+                    }
+                    ._title {
+                        font-size: pr(14);
+                        margin-top: pr(-40);
+                        margin-left: -50%;
+                        line-height: 1.25;
+                        font-weight: 400;
+                        span {
+                            text-transform: uppercase;
+                            font-size: pr(18);
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+            .wi_2015 {
+                width: 34vw;
+                .plataforma {
+                    left: 50%;
+                    height: pr(100);
+                    bottom: 50%;
+                    .line {
+                        &:before {
+                            top: pr(-6);
+                            left: pr(-5);
+                        }
+                    }
+                    ._subtitle {
+                        left: -40%;
+                        padding-bottom: pr(16);
+                        bottom: 100%;
+                        line-height: 1;
+                        p {
+                            font-size: pr(24);
+                            font-weight: 700;
+                            line-height: 1.1;
+                            margin: 0;
+                        }
+                    }
+                    .item-icon {
+                        bottom: pr(0);
+                        margin-left: pr(10);
+                    }
+                }
+            }
+            .wi_2018 {
+                width: 36vw;
+                .entry-year {
+                    ._title {
+                        span {
+                            font-size: pr(16);
+                            font-weight: 400;
+                        }
+                        p {
+                            margin: 0;
+                            line-height: 1.1;
+                        }
+                    }
+                    .side-legend {
+                        position: absolute;
+                        left: pr(70);
+                        font-size: pr(14);
+                        width: pr(160);
+                        top: pr(30);
+                    }
+                }
+                .incremento {
+                    left: 60%;
+                    height: pr(200);
+                    top: 50%;
+                    .line {
+                        &.vertical {
+                            height: pr(80);
+                            margin-bottom: pr(60);
+                        }
+                        &:before {
+                            bottom: pr(-6);
+                            left: pr(-5);
+                        }
+                    }
+                    ._title {
+                        font-size: pr(14);
+                        margin-top: pr(-45);
+                        margin-left: -20%;
+                        line-height: 1.25;
+                        text-align: left;
+                        font-weight: 400;
+                        height: auto;
+                        span {
+                            text-transform: uppercase;
+                            font-size: pr(18);
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+            .wi_2019 {
+                width: 36vw;
+                .entry-year {
+                    ._title {
+                        span {
+                            font-size: pr(16);
+                            font-weight: 400;
+                        }
+                        p {
+                            margin: 0;
+                            line-height: 1.1;
+                        }
+                    }
+                    .side-icon {
+                        position: absolute;
+                        left: 42.5%;
+                        top: pr(-16);
+                        font-size: pr(96);
+                    }
+                }
+                .tecnologico {
+                    left: 40%;
+                    height: pr(70);
+                    bottom: 50%;
+                    .line {
+                        &:before {
+                            top: pr(-6);
+                            left: pr(-5);
+                        }
+                    }
+                    .icons {
+                        position: absolute;
+                        left: pr(-35);
+                        top: pr(-60);
+                        i {
+                            font-size: pr(48);
+                            display: inline-block;
+                        }
+                        .icon-drone {
+                            font-size: pr(64);
+                        }
+                        .icon-oculus {
+                            position: relative;
+                            top: pr(16);
+                        }
+                    }
+                    .text {
+                        margin-top: pr(16);
+                        width: 150%;
+                        bottom: 0;
+                        margin-left: pr(16);
+                        position: absolute;
+                        i {
+                            font-size: pr(48);
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                        span {
+                            line-height: 1.25;
+                            vertical-align: middle;
+                            display: inline-block;
+                            font-size: pr(14);
+                        }
+                    }
+                    ._subtitle {
+                        left: -40%;
+                        padding-bottom: pr(16);
+                        bottom: 100%;
+                        line-height: 1;
+                        p {
+                            font-size: pr(24);
+                            font-weight: 700;
+                            line-height: 1.1;
+                            margin: 0;
+                        }
+                    }
+                    .item-icon {
+                        bottom: pr(0);
+                        margin-left: pr(10);
+                    }
+                }
+                .inteligencia {
+                    left: pr(260);
+                    width: pr(190);
+                    height: pr(200);
+                    top: 50%;
+                    .line {
+                        &.vertical {
+                            height: pr(80);
+                            margin-bottom: pr(60);
+                        }
+                        &:before {
+                            bottom: pr(-6);
+                            left: pr(-5);
+                        }
+                    }
+                    ._title {
+                        font-size: pr(14);
+                        margin-top: pr(-45);
+                        margin-left: -35%;
+                        line-height: 1.25;
+                        text-align: left;
+                        font-weight: 400;
+                        height: auto;
+                        span {
+                            text-transform: uppercase;
+                            font-size: pr(18);
+                            font-weight: 700;
+                        }
+                    }
+                    span {
+                        display: inline-block
+                    }
+                    .icon-rank-level {
+                        font-size: pr(44);
+                        margin-left: pr(-8);
+                        display: inline-block;
+                        vertical-align: bottom;
+                    }
+                }
+            }
+            .entry-year {
+                position: absolute;
+                left: 0;
+                top: 50%;
+            }
+        }
+        .arrows {
+            text-align: center;
+            padding: pr() 0;
+            .btn {
+                color: white;
+                width: pr(40);
+                height: pr(40);
+                display: inline-block;
+                border: pr(2) solid white;
+                border-radius: 50%;
+                i {
+                    font-size: pr(24);
+                    line-height: 1;
+                }
+            }
+            button[margin-left] {
+                margin-left: pr(24);
+            }
+            button[margin-right] {
+                margin-right: pr(24);
+            }
+        }
+    }
+}

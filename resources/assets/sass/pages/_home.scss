@@ -1,0 +1,126 @@
+@import "../api";
+.page-home {
+    .slider {
+        background: #212121;
+    }
+    .section {
+        position: relative;
+        background: white;
+        .section-title {
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            
+        }
+        &.section-objective {
+            .section-title {
+                color: #00A7AE;
+            }
+            p {
+                font-family: 'Quicksand', sans-serif;
+            }
+            .icons {
+                text-align: center;
+                display: block;
+                margin-top: 32px;
+            }
+            .icon-box {
+                min-width: 150px;
+                display: inline-block;
+                margin: 0 18px;
+                h6 {
+                    font-size: 18px;
+                    display: block;
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-weight: 400;
+                    font-family: 'Quicksand', sans-serif;
+                }
+            }
+            .icon {
+                height: pr(56);
+                width: pr(48);
+                background: #00A7AE;
+                display: inline-block;
+            }
+            h5 {
+                font-size: pr(28);
+                margin-top: pr(36);
+                text-align: center;
+            }
+        }
+        &.section-services {
+            background: #212121;
+            z-index: 3;
+            .section-title {
+                color: white;
+            }
+            .icons {
+                text-align: center;
+                display: block;
+                margin-top: 32px;
+            }
+            .icon-box {
+                display: inline-block;
+                margin: 0 18px;
+                h6 {
+                    font-size: 18px;
+                    color: white;
+                    display: block;
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-weight: 400;
+                    font-family: 'Quicksand', sans-serif;
+                }
+            }
+            .icon {
+                height: pr(200);
+                width: pr(200);
+                border-radius: 50%;
+                margin-bottom: 32px;
+                border: 2px solid #00A7AE;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+@media all and ( min-width : $w_sm ) {
+    .page-home {
+        .slider {
+            height: calc( 80vh - 150px );
+        }
+        .section {
+            padding: pr(36) 0;
+            .section-title {
+                font-size: pr(36);
+            }
+            p {
+                font-size: pr(28);
+                text-align: center;
+                margin: 2em 2em 0;
+            }
+        }
+
+    }
+}
+@media all and ( max-width : ( $w_sm - 1 ) ) {
+    .page-home {
+        .slider {
+            height: calc( 60vh - 64px );
+        }
+        .section {
+            padding: pr(24) 0;
+            .section-title {
+                font-size: pr(24);
+            }
+            p {
+                font-size: pr(18);
+                text-align: center;
+                margin: .5em 0 0;
+            }
+        }
+
+    }
+    
+}

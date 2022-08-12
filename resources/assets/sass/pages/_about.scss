@@ -1,0 +1,30 @@
+@import "../api";
+.page-about {
+    .vision-mision {
+        padding: pr(36) 0;
+        h2 {
+            font-size: pr(36);
+            text-align: center;
+            margin: 0 0 1em;
+        }
+        p {
+            font-size: pr(18);
+            line-height: 2; 
+            margin: 0;
+            text-align: justify;
+        }
+    }
+    .section {
+        min-height: 60vh;
+        width: 100%;
+        padding-top: pr(36);
+        background: #1a1a1a;
+    }
+    .hitos-title {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: pr(36);
+        color: white;
+        font-weight: 700;
+    }
+}
